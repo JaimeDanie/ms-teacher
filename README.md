@@ -1,3 +1,6 @@
+# ms-teacher
+Microservicio docentes
+
 MYSQL
 docker pull mysql:5.7
 docker run -p 3307:3306 --name mysqldbteacher -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=teacher_db mysql
